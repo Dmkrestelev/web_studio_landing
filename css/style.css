@@ -726,3 +726,16 @@ textarea {
   top:0px;
   z-index: 10;
 }
+
+.ftco-section .ftco-media{
+  height: 466px;
+}
+
+.ftco-section .media-body p.mb-5{
+  height: 168px;
+}
+
+.ftco-pricing .list-unstyled{
+  height: 252px;
+}
+
