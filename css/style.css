@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.45;
   font-weight: normal;
-  color: #000; }
+  color: white; }
 
 .text-primary {
   color: #4586FF !important; }
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   text-transform: uppercase;
   letter-spacing: .1em; }
-
+bg-white
 .bg-image, .ftco-cover {
   background-size: cover;
   background-repeat: no-repeat; }
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5,
   width: 120%;
   height: 200px;
   left: -10%;
-  background: #f2f2f2;
+  background: rgb(185, 51, 49) !important;
   -webkit-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
@@ -283,7 +283,7 @@ textarea {
     font-size: 30px; } }
 .ftco-section.bg-light,
 .ftco-footer.bg-light {
-  background: #f2f2f2 !important; }
+  background: rgb(185, 51, 49) !important; }
 
 .ftco-bg-dark {
   background: #263135; }
@@ -738,4 +738,79 @@ textarea {
 .ftco-pricing .list-unstyled{
   height: 252px;
 }
-
+.bg-white {
+  background-color:  rgb(185, 51, 49) !important;
+  border-bottom: white solid 4px!important;
+  border-radius: 24px!important;
+  border-left: 4px white solid!important;
+  border-right: 4px solid white!important;
+}
+.ftco-pricing .list-unstyled {
+  color: white;
+}
+.ftco-uppercase {
+  border-bottom: 4px rgb(185, 51, 49) solid;
+  border-top: 4px rgb(185, 51, 49) solid;
+  color: rgb(185, 51, 49) !important;
+}
+.white_uu {
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+  color: white!important;
+}
+.lead {
+  color: white;
+  font-weight: bold;
+}
+.text-muted {
+  color: rgb(208, 30, 27) !important
+}
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
+  border-color: white;
+  background: rgb(185, 51, 49) !important;
+  color: white!important;
+}
+.btn.btn-primary {
+  border-color: rgb(185, 51, 49) !important;
+  background: rgba(255, 255, 255, 0.6);
+  color: rgb(185, 51, 49) !important;
+}
+.wwtb_border {
+  border-bottom: 4px white solid;
+  border-top: 4px white solid;
+  color: white !important;
+}
+#section-contact {
+  border-radius: 0!important;
+  background: white!important;
+  border-left: unset!important;
+  border-right: unset!important;
+  border-bottom: unset!important;
+}
+.ftco-counter .ftco-number {
+  color: white;
+}
+.red_border {
+  border-radius: 15px;
+}
+h3 {
+  color: rgb(185, 51, 49) !important;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: rgb(208, 30, 27) !important;
+}
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+  color: red !important;
+}
+.navbar-dark .navbar-brand {
+  color: rgb(185, 51, 49) !important;
+}
+.nav-link {
+  color: white!important;
+}
+.nav-link:hover {
+  color: red !important;
+}
+.mt-0 {
+  color: rgb(208, 30, 27) !important;
+}
